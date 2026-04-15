@@ -14,7 +14,7 @@ function validarMensagem(event) {
         formulario.reset();
     }
 }
-
+//waw
 formulario.addEventListener('submit', validarMensagem);
 
 const botaoTema = document.querySelector('#botao-tema');
