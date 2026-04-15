@@ -26,10 +26,10 @@ function mudarTema() {
 
     if (body.classList.contains('tema-vermelho')) {
         botaoTema.innerText = "Azul";
-        imagem.src = 'imgs/Teto.jpg';
+        imagem.src = 'Imgs/Teto.jpg';
     } else {
         botaoTema.innerText = "Vermelho";
-        imagem.src = 'imgs/Miku.jpg';
+        imagem.src = 'Imgs/Miku.jpg';
     }
 }
 botaoTema.addEventListener('click', mudarTema);
